@@ -28,7 +28,7 @@ echo "<?php phpinfo(); ?>" > www/index.php
 ````
 ## 3. Execute docker with Build stack 'project' 
 ````
-docker-compose -p 'lampp' up --build --remove-orphans
+docker-compose -p 'lampp' up --build -d --remove-orphans
 ````
 ## 4. Execute docker with Stop stack 'project' with paramater option
 ````
