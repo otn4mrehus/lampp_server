@@ -1,4 +1,4 @@
-# lampp_server
+# lampp_server [Docker-compose]
 Web Server (APACHE, PHP8.0, PHP7.4.33, MySQL dan PHPMyAdmin) on Linux Debian With Docker
 ## 0 . Direktori Structure
 ````
@@ -42,4 +42,4 @@ http://localhost:2001   ## Web phpmyadmin ##
 ### username : root
 ### password : password
 ````
-
+# lampp_server [Dockerfile]
