@@ -21,6 +21,11 @@ cd lampp8.0
     # or
 cd lampp7.4.33  
 ````
+````
+mkdir -p db_data www \
+chmod -R www \
+echo "<?php phpinfo(); ?>" > www\index.php
+````
 ## 3. Execute docker with Build stack 'project' 
 ````
 docker-compose -p 'lampp' up --build --remove-orphans
