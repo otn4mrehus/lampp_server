@@ -1,5 +1,14 @@
 # lampp_server
 Web Server (APACHE, PHP8.0, PHP7.4.33, MySQL dan PHPMyAdmin) on Linux Debin With Docker
+## 0 . Direktori Structure
+````
+lampp-server/
+│── .env                # File containing environment variables (for Docker Compose)
+│── docker-compose.yml  # Docker Compose configuration file
+│── db_data/            # Directory for MySQL data persistence
+└── www/                # Project directory for your PHP application
+
+````
 
 ## 1. Download Directory and File
 ````
