@@ -1,5 +1,5 @@
 # lampp_server
-Web Server (APACHE, PHP8.0, PHP7.4.33, MySQL dan PHPMyAdmin) on Linux Debin With Docker
+Web Server (APACHE, PHP8.0, PHP7.4.33, MySQL dan PHPMyAdmin) on Linux Debian With Docker
 ## 0 . Direktori Structure
 ````
 lampp-server/
