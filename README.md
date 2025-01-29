@@ -24,7 +24,7 @@ cd lampp7.4.33
 ````
 mkdir -p db_data www \
 chmod -R www \
-echo "<?php phpinfo(); ?>" > www\index.php
+echo "<?php phpinfo(); ?>" > www/index.php
 ````
 ## 3. Execute docker with Build stack 'project' 
 ````
